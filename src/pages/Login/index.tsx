@@ -1,5 +1,9 @@
-import React from 'react'
+import React from 'react';
+import { TopBar } from '../../components/TopBar';
 
 export const Login:React.FC = () => (
-    <h1>Login</h1>
+    <>
+        <TopBar />
+        <h1>Login</h1>
+    </>
 );
