@@ -1,8 +1,14 @@
 import React from 'react';
-import { Background } from './styles';
+import { Bar, Link, Path } from './styles';
 
-export const TopBar:React.FC = () => (
-    <Background>
-        Top Bar
-    </Background>
+type Props = {
+    title: string,
+    noMenu?: boolean
+}
+
+export const TopBar:React.FC<Props> = ({ title, noMenu }: Props) => (
+    <Bar>
+        { !noMenu ? <Link href='#menu'>MENU</Link> : null }
+        <Path>{ title }</Path>
+    </Bar>
 );

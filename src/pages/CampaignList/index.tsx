@@ -1,5 +1,9 @@
 import React from 'react'
+import { TopBar } from '../../components/TopBar';
 
 export const CampaignList:React.FC = () => (
-    <h1>Lista de Campanhas</h1>
+    <>
+        <TopBar title="Lista de Campanhas" />
+        <h1>Lista de Campanhas</h1>
+    </>
 );
