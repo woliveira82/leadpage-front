@@ -1,0 +1,33 @@
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #689EAD;
+    width: 100%;
+    height: 3rem;
+    border: 0;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    color: #FFFFFF;
+    font-size: bold;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7DB3C2;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #eeeeee;
+    width: 100%;
+    border: 0;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 0.2rem;
+}
