@@ -10,9 +10,14 @@ button {
     border-radius: 0.2rem;
     color: #FFFFFF;
     font-size: bold;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
     cursor: pointer;
+}
+
+button.action {
+	height: 1.2rem;
+	width: 4rem;
+	padding: 0.2rem;
+	font-size: 0.6rem;
 }
 
 button:hover {
@@ -30,4 +35,37 @@ input {
     box-sizing: border-box;
     font-size: 14px;
     border-radius: 0.2rem;
+}
+
+div.shadowBox {
+	box-shadow: 0 0 1rem grey;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0.2rem 0.2rem 0px 0px;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+}
+
+th {
+	background: #3A5961;
+	color: #FFFFFF;
+	padding: 1rem 0;
+}
+
+tr {
+	padding: 1rem 0;
+}
+
+tr:hover {
+	background-color: #CFE1E6;
+}
+
+td {
+	padding: 0.5rem 0;
 }

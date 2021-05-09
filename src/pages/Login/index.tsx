@@ -3,7 +3,7 @@ import { useHistory } from 'react-router';
 import { Wrapper, LoginBox, P, A } from './styles';
 import { TopBar } from '../../components/TopBar';
 import { api } from '../../utils';
-import '../../styles/form.css';
+import '../../themes/default.css';
 
 export const Login:React.FC = () => {
     
